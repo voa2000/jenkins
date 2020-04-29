@@ -20,11 +20,20 @@ services:
       - net
   db_host:
     container_name: db
-    image: mysql:5.6.36
+    image: mysql:5.7
     environment:
-            -  "MYSQL_ROOT_PASSWORD=1234"
+      MYSQL_ROOT_PASSWORD: 1234
     volumes:
-      - $PWD/db_data:/var/lib/mysql
+      - $PWD/db_data:/var/lib/mysql  
+    networks:
+      - net
+  ubuntu_host:
+    container_name: ubuntu-host
+    image: ubuntu-host
+    build:
+      context: ubuntu18_04
+    volumes:
+      - $PWD/aws-s3.sh:/tmp/script.sh
     networks:
       - net
 networks:

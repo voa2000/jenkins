@@ -1,0 +1,10 @@
+Started by user [8mha:////4KIZqqycGX2g2OSBz9C3tpdOAO4fpIXzYXpSDoEEbJfYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Hello World
+[Hello World] $ /bin/sh -xe /tmp/jenkins1317912209468041121.sh
++ echo Hello Jenkins World
+Hello Jenkins World
++ date
++ echo Current date and time is Sat Apr 25 09:19:04 UTC 2020
+Current date and time is Sat Apr 25 09:19:04 UTC 2020
+Finished: SUCCESS

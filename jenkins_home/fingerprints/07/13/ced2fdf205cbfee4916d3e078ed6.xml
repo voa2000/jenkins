@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-04-25 12:50:05.782 UTC</timestamp>
+  <md5sum>0713ced2fdf205cbfee4916d3e078ed6</md5sum>
+  <fileName>Credential id=99b36461-6aa0-40e6-b03d-8f750b3c0bb6 name=remote_user</fileName>
+  <usages>
+    <entry>
+      <string>remote-task</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
